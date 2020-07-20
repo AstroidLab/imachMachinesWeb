@@ -1,0 +1,256 @@
+﻿@page
+@model imachMachinesWeb.Pages.CompactingHeads.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container-fluid col-10 justify-content-center">
+
+    <div class="mt-5">
+        <div class="row">
+
+            <h3 id="compactingHeads"><span class="h4">@Model.CompactingHeads.Count()</span>CompactingHeads</h3>
+            <a class="btn-sm  btn-primary ml-5 mt-1" style="max-height:30px" id="gallery" href="" data-toggle="modal" data-target="#compactingHeadModal">Media Gallery</a>
+
+
+
+
+        </div>
+
+        <div class="row mt-3">
+
+
+            @foreach (var compactingHead in Model.CompactingHeads)
+            {
+                var photoPath = "~/images/compactingHeads/main/" + (compactingHead.PhotoPath);
+                <div class="col-lg-4 mb-5 ">
+
+                    <table class="table-striped" >
+                        <thead>
+                            <tr>
+                                <th colspan="2">
+                                    <div class="row ml-2">
+                                        <h5>@compactingHead.Id - @compactingHead.ShortCode  </h5>
+                                    </div>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <img class="img-fluid" src="@photoPath" alt="NoImage" asp-append-version="true" />
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th id="reelDiameter">Reel Diameter</th>
+                                <th>:</th>
+                                <td class="d-table-row">@compactingHead.ReelDiameter</td>
+                            </tr>
+                            <tr>
+                                <th id="referancePower">Referance Power</th>
+                                <th>:</th>
+                                <td class="d-table-row">@compactingHead.Power</td>
+                            </tr>
+                            <tr>
+                                <th id="length">Length</th>
+                                <th>:</th>
+                                <td class="d-table-row">@compactingHead.Length</td>
+                            </tr>
+                            <tr>
+                                <th id="width">Width</th>
+                                <th>:</th>
+                                <td class="d-table-row">@compactingHead.Width</td>
+                            </tr>
+                            <tr>
+                                <th id="height">Height</th>
+                                <th>:</th>
+                                <td class="d-table-row">@compactingHead.Height</td>
+                            </tr>
+                            <tr>
+                                <th id="weight">Weight</th>
+                                <th>:</th>
+                                <td class="d-table-row">@compactingHead.Weight</td>
+                            </tr>
+                            <tr>
+                                <th id="productionTime">Production Time</th>
+                                <th>:</th>
+                                <td>@compactingHead.ProductionTime</td>
+                            </tr>
+                            <tr>
+                                <th id="safetyRegulation">Safety Regulation</th>
+                                <th>:</th>
+                                <td>@compactingHead.SafetyRegulation</td>
+                            </tr>
+                            <tr>
+                                <th id="maxLinearSpeed">Maximum Linear Speed</th>
+                                <th>:</th>
+                                <td>
+                                    <ul>
+                                        @foreach (var item in compactingHead.MaxLinearSpeed)
+                                        {
+                                            <li><input type="radio" name="@compactingHead.ShortCode.ToString()a">_@item.ToString()</li>
+                                        }
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th id="maxRpm">Maximum rpm</th>
+                                <th>:</th>
+                                <td>
+                                    <ul>
+                                        @foreach (var item in compactingHead.MaxRpm)
+                                        {
+                                            <li><input type="radio" name="@compactingHead.ShortCode.ToString()b">_@item.ToString()</li>
+                                        }
+
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th id="systemVoltage">System Voltage</th>
+                                <th>:</th>
+                                <td>
+                                    <ul>
+                                        @foreach (var item in compactingHead.SystemVoltage)
+                                        {
+                                            <li><input type="radio" name="@compactingHead.ShortCode.ToString()c">_@item.ToString()</li>
+                                        }
+
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th id="workingType">Working Type</th>
+                                <th>:</th>
+                                <td>
+                                    <ul>
+                                        @foreach (var item in compactingHead.WorkingType)
+                                        {
+                                            <li><input type="radio" name="@compactingHead.ShortCode.ToString()d">_@item.ToString()</li>
+                                        }
+
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th id="workingMode">Working Mode</th>
+                                <th>:</th>
+                                <td>
+                                    <ul>
+                                        @foreach (var item in compactingHead.WorkingMode)
+                                        {
+                                            <li><input type="checkbox">_@item.ToString()</li>
+                                        }
+
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th id="standardEquipments">Standard Equipments</th>
+                                <th>:</th>
+                                <td>
+                                    <ul>
+                                        @foreach (var item in compactingHead.StandartEquipments)
+                                        {
+                                            <li>@item.ToString()</li>
+                                        }
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th id="optionalEquipments">Optional Equipments</th>
+                                <th>:</th>
+                                <td>
+                                    <ul>
+                                        @foreach (var item in compactingHead.OptionalEquipments)
+                                        {
+                                            <li><input type="checkbox" checked>_@item.ToString()</li>
+                                        }
+                                    </ul>
+                                </td>
+                            </tr>
+                            @*above are baseSpecs
+                                below are productSpecs*@
+                            <tr>
+                                <th colspan="3" class="text-center"><a id="rfq" href="mailto:kadirakyil@msn.com?subject=  @compactingHead.ShortCode.ToString() Request for Quotation" title="Seçili Opsiyonel Ekipmanlar, hattın çalışması için gereklidir. Müşteri tarafından tedarik edilebilir.Teklif edilmesini istediğiniz opsiyonları ekleyebilir veya istemediklerinizi çıkartabilirsiniz.">Request for quotation<sup>?</sup></a></th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
+
+<!-- The Modal -->
+<div class="modal fade mt-5 fullscreen" id="compactingHeadModal" style="background-color:rgba(0, 0, 0, 0.95)">
+    <div class="modal-dialog  ">
+
+        <div class="modal-content  bg-imachTop mt-5">
+
+            <div id="compactingHeadCarousel" class="carousel slide" data-ride="carousel" style="background-color:rgba(0, 0, 0, 0.4)">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#compactingHeadCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#compactingHeadCarousel" data-slide-to="1"></li>
+                    <li data-target="#compactingHeadCarousel" data-slide-to="2"></li>
+                    <li data-target="#compactingHeadCarousel" data-slide-to="3"></li>
+                    <li data-target="#compactingHeadCarousel" data-slide-to="4"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="modal-content " src="~/images/compactingHeads/compactingHead1.jpg" alt="compactingHead1" />
+                    </div>
+                    <div class="carousel-item">
+                        <img class="modal-content " src="~/images/compactingHeads/compactingHead2.jpg" alt="compactingHead2" />
+                    </div>
+                    <div class="carousel-item">
+                        <img class="modal-content " src="~/images/compactingHeads/compactingHead3.jpg" alt="compactingHead3" />
+                    </div>
+                    <div class="carousel-item">
+                        <img class="modal-content " src="~/images/compactingHeads/compactingHead4.jpg" alt="compactingHead4" />
+                    </div>
+                    <div class="carousel-item">
+                        <img class="modal-content " src="~/images/compactingHeads/compactingHead5.jpg" alt="compactingHead5" />
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <!-- Left and right controls -->
+
+            <div class="row justify-content-center">
+
+
+                <div>
+                    <a data-dismiss="modal">
+                        <span class="   mr-5 ml-3 mb-3 mt-3 btn btn-danger">X</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#compactingHeadCarousel" data-slide="prev">
+                        <span class="mt-3 mb-3 ml-5   btn btn-outline-warning"><<<</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#compactingHeadCarousel" data-slide="next">
+                        <span class="m-3 btn btn-outline-warning ">>>></span>
+                    </a>
+                </div>
+
+
+            </div>
+
+
+        </div>
+        <div class="mt-3">
+            <iframe style="width:100%; height:220px" src="https://www.youtube.com/embed/xx_GoPpk7y8" frameborder="1"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+</div>

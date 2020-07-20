@@ -1,0 +1,48 @@
+﻿using System;
+using System.ComponentModel;
+using System.Reflection;
+
+namespace imachMachinesWeb.Models
+{
+    public class CoolingThrough : BaseClass
+    {
+
+        //public int Id { get; set; }
+        //public string ShortCode { get; set; }
+        //public string PhotoPath { get; set; }
+        //public string ModelPath { get; set; }
+        //public int ReelDiameter { get; set; }
+        //public double Power { get; set; }
+        //public int Length { get; set; }
+        //public int Width { get; set; }
+        //public int Height { get; set; }
+        //public int Weight { get; set; }
+        //public int ProductionTime { get; set; }
+        //public string SafetyRegulation { get; set; }
+
+        ////below multiple selective properties
+
+        //public int[] MaxLinearSpeed { get; set; }
+        //public int[] MaxRpm { get; set; }
+        //public string[] SystemVoltage { get; set; }
+        //public string[] WorkingType { get; set; }
+        //public string[] WorkingMode { get; set; }
+        //public string[] StandartEquipments { get; set; }
+        //public string[] OptionalEquipments { get; set; }
+
+
+        public int CoolingLength { get; set; }
+        public int StraightTroughLength { get; set; }
+        public int TelescopicMovement { get; set; }
+        public int MultiPassTroughLength { get; set; }
+        public int NumberOfPasses { get; set; }
+        public int[] PulleyDiameter { get; set; }
+        public string[] PulleyMaterial { get; set; }
+
+
+
+
+
+
+    }
+}

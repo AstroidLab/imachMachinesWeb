@@ -1,0 +1,2501 @@
+﻿{
+  "properties": [
+    {
+      "id": "btnContact",
+      "Tr": "İletişim",
+      "En": "Contact Us",
+      "Ru": "Контакты ",
+      "Es": "Contacto",
+      "Fr": "Contact",
+      "De": "Kontakt"
+    },
+    {
+      "id": "btnLocation",
+      "Tr": "Konum",
+      "En": "Location",
+      "Ru": "Расположение",
+      "Es": "Ubicación",
+      "Fr": "Emplacement",
+      "De": "Anfahrt"
+    },
+    {
+      "id": "mainSlide1h2",
+      "Tr": "Aymak Makine",
+      "En": "Aymak Makine",
+      "Ru": "Aymak Makine",
+      "Es": "Aymak Makine",
+      "Fr": "Aymak Makine",
+      "De": "Aymak Makine"
+    },
+    {
+      "id": "mainSlideSubTitle1",
+      "Tr": "Hoşgeldiniz",
+      "En": "Welcome",
+      "Ru": "желанный",
+      "Es": "Bienvenidos",
+      "Fr": "Bienvenue",
+      "De": "Willkommen"
+    },
+    {
+      "id": "btn1",
+      "Tr": "Hadi Başlayalım",
+      "En": "Let's Begin",
+      "Ru": "Давайте начнем",
+      "Es": "Vamos a empezar",
+      "Fr": "Commençons",
+      "De": "Lass uns anfangen"
+    },
+    {
+      "id": "mainSlide2h2",
+      "Tr": "Aymak Makine",
+      "En": "Aymak Makine",
+      "Ru": "Aymak Makine",
+      "Es": "Aymak Makine",
+      "Fr": "Aymak Makine",
+      "De": "Aymak Makine"
+    },
+    {
+      "id": "mainSlideSubTitle2",
+      "Tr": "Hoşgeldiniz",
+      "En": "Welcome",
+      "Ru": "желанный",
+      "Es": "Bienvenidos",
+      "Fr": "Bienvenue",
+      "De": "Willkommen"
+    },
+    {
+      "id": "mainSlide3h2",
+      "Tr": "Aymak Makine",
+      "En": "Aymak Makine",
+      "Ru": "Aymak Makine",
+      "Es": "Aymak Makine",
+      "Fr": "Aymak Makine",
+      "De": "Aymak Makine"
+    },
+    {
+      "id": "mainSlideSubTitle3",
+      "Tr": "Hoşgeldiniz",
+      "En": "Welcome",
+      "Ru": "желанный",
+      "Es": "Bienvenidos",
+      "Fr": "Bienvenue",
+      "De": "Willkommen"
+    },
+    {
+      "id": "mainSlide4h2",
+      "Tr": "Aymak Makine",
+      "En": "Aymak Makine",
+      "Ru": "Aymak Makine",
+      "Es": "Aymak Makine",
+      "Fr": "Aymak Makine",
+      "De": "Aymak Makine"
+    },
+    {
+      "id": "mainSlideSubTitle4",
+      "Tr": "Hoşgeldiniz",
+      "En": "Welcome",
+      "Ru": "желанный",
+      "Es": "Bienvenidos",
+      "Fr": "Bienvenue",
+      "De": "Willkommen"
+    },
+    {
+      "id": "pg-insulation",
+      "Tr": "İzolasyon",
+      "En": "Insulation",
+      "Ru": "изоляция",
+      "Es": "Aislamiento",
+      "Fr": "Isolation",
+      "De": "Isolierung"
+    },
+    {
+      "id": "pg-bunching",
+      "Tr": "Buncher",
+      "En": "Bunching",
+      "Ru": "115",
+      "Es": "116",
+      "Fr": "Tordonner",
+      "De": "118"
+    },
+    {
+      "id": "pg-stranding",
+      "Tr": "Büküm",
+      "En": "Stranding",
+      "Ru": "124",
+      "Es": "125",
+      "Fr": "Cabler",
+      "De": "127"
+    },
+    {
+      "id": "pg-armouring",
+      "Tr": "Zırhlama",
+      "En": "Armouring",
+      "Ru": "133",
+      "Es": "134",
+      "Fr": "Armer",
+      "De": "136"
+    },
+    {
+      "id": "pg-pulling",
+      "Tr": "Çekiciler",
+      "En": "Pulling",
+      "Ru": "142",
+      "Es": "143",
+      "Fr": "Cabestans",
+      "De": "145"
+    },
+    {
+      "id": "pg-rewinding",
+      "Tr": "Aktarma",
+      "En": "Rewinding",
+      "Ru": "151",
+      "Es": "152",
+      "Fr": "153",
+      "De": "154"
+    },
+    {
+      "id": "pg-taping",
+      "Tr": "Bantalama",
+      "En": "Taping",
+      "Ru": "160",
+      "Es": "161",
+      "Fr": "Rubanier",
+      "De": "163"
+    },
+    {
+      "id": "pg-spooling",
+      "Tr": "Sarıcı Boşaltıcı",
+      "En": "Spooling",
+      "Ru": "169",
+      "Es": "170",
+      "Fr": "Déroluer & Enroluer",
+      "De": "172"
+    },
+    {
+      "id": "pg-coiling",
+      "Tr": "Kangallama",
+      "En": "Coiling",
+      "Ru": "178",
+      "Es": "179",
+      "Fr": "180",
+      "De": "181"
+    },
+    {
+      "id": "pg-other",
+      "Tr": "Diğer Ekipmanlar",
+      "En": "Others",
+      "Ru": "Другие инструменты",
+      "Es": "Otras herramientas",
+      "Fr": "Autres outils",
+      "De": "Andere Werkzeuge"
+    },
+    {
+      "id": "reachUs",
+      "Tr": "Bize Ulaşın",
+      "En": "Reach Us",
+      "Ru": "Связаться с нами",
+      "Es": "Llegar a nosotros",
+      "Fr": "Rejoins_nous",
+      "De": "Erreiche uns"
+    },
+    {
+      "id": "insulation-main",
+      "Tr": "Ekstruzyon Çözümleri",
+      "En": "Insulation Solutions",
+      "Ru": "Изоляционные решения",
+      "Es": "Sloutions de aislamiento",
+      "Fr": "Sloutions d'isolation",
+      "De": "Isolationslösungen"
+    },
+    {
+      "id": "insulation-main-announce-1",
+      "Tr": "Maksimum Verimlilik",
+      "En": "Maximum Efficiency",
+      "Ru": "Максимальная эффективность",
+      "Es": "Máxima eficiencia",
+      "Fr": "Efficacité maximale",
+      "De": "Maximale Effizienz"
+    },
+    {
+      "id": "automotiveCableLine",
+      "Tr": "AAIL - Otomotiv kablosu damar izolasyon hattı ",
+      "En": "AAIL - Automotive Wire insulation Line",
+      "Ru": "AAIL - 223",
+      "Es": "AAIL - 224",
+      "Fr": "AAIL - 225",
+      "De": "AAIL - 226"
+    },
+    {
+      "id": "info-extruder",
+      "Tr": "IMACH ekstruderleri hatları ile üretim kalitenizi üst seviyelere taşırken, kapasitenizi de arttırır. ",
+      "En": "231",
+      "Ru": "232",
+      "Es": "233",
+      "Fr": "234",
+      "De": "235"
+    },
+    {
+      "id": "info-crossHead",
+      "Tr": "IMACH çapraz kafaları uzun ömürlüdür",
+      "En": "240",
+      "Ru": "241",
+      "Es": "242",
+      "Fr": "243",
+      "De": "244"
+    },
+    {
+      "id": "info-screwAndBarrel",
+      "Tr": "IMACH vida kovanları yüksek verim üretir",
+      "En": "249",
+      "Ru": "250",
+      "Es": "251",
+      "Fr": "252",
+      "De": "253"
+    },
+    {
+      "id": "info-coolingThrough",
+      "Tr": "IMACH soğutma tünelleri 316 paslanmaz çelikten üretilir",
+      "En": "258",
+      "Ru": "259",
+      "Es": "260",
+      "Fr": "261",
+      "De": "262"
+    },
+    {
+      "id": "info-tipAndDie",
+      "Tr": "Kaliteli ayna nipel takımları için bizi seçin",
+      "En": "267",
+      "Ru": "268",
+      "Es": "269",
+      "Fr": "270",
+      "De": "271"
+    },
+    {
+      "id": "info-insulationSpare",
+      "Tr": "Bu sekme izolasyonda kullanılan diğer ekipmanlar için hazırlanmıştır",
+      "En": "276",
+      "Ru": "277",
+      "Es": "278",
+      "Fr": "279",
+      "De": "280"
+    },
+    {
+      "id": "bunching-main",
+      "Tr": "Buncher Büküm Çözümleri",
+      "En": "Bunching Solutions",
+      "Ru": "286",
+      "Es": "287",
+      "Fr": "288",
+      "De": "289"
+    },
+    {
+      "id": "energy",
+      "Tr": "Enerji Tasarruflu Motor ve Sürücüler",
+      "En": "Energy Saving Motor Drives",
+      "Ru": "295",
+      "Es": "296",
+      "Fr": "297",
+      "De": "298"
+    },
+    {
+      "id": "remote",
+      "Tr": "Uzak Bağlantı İle Yazılım Desteği",
+      "En": "Remote Assistance via Internet",
+      "Ru": "304",
+      "Es": "305",
+      "Fr": "306",
+      "De": "307"
+    },
+    {
+      "id": "user",
+      "Tr": "Kullanıcı Dostu Arayüz",
+      "En": "User Friendly interface",
+      "Ru": "313",
+      "Es": "314",
+      "Fr": "315",
+      "De": "316"
+    },
+    {
+      "id": "reciepe",
+      "Tr": "Reçete Kaydetme Özelliği",
+      "En": "Reciepe Saving",
+      "Ru": "322",
+      "Es": "323",
+      "Fr": "324",
+      "De": "325"
+    },
+    {
+      "id": "multiLang",
+      "Tr": "Çoklu Dil Desteği",
+      "En": "Multilingual Interface",
+      "Ru": "331",
+      "Es": "332",
+      "Fr": "333",
+      "De": "334"
+    },
+    {
+      "id": "productivity",
+      "Tr": "Yüksek Verim",
+      "En": "High Productivity",
+      "Ru": "340",
+      "Es": "341",
+      "Fr": "342",
+      "De": "343"
+    },
+    {
+      "id": "nonStop",
+      "Tr": "Durmadan Çalışma Kabiliyeti",
+      "En": "NonStop Working Ability",
+      "Ru": "349",
+      "Es": "350",
+      "Fr": "351",
+      "De": "352"
+    },
+    {
+      "id": "lubrication",
+      "Tr": "Opsiyonel Otomatik Yağlama Sistemi",
+      "En": "Optional Automatic Lubrication System",
+      "Ru": "358",
+      "Es": "359",
+      "Fr": "360",
+      "De": "361"
+    },
+    {
+      "id": "wireless",
+      "Tr": "Beşik ve kontrol sistemi arasında kablosuz veri transferi",
+      "En": "WireLess data transfer between cage and main panel",
+      "Ru": "367",
+      "Es": "368",
+      "Fr": "369",
+      "De": "370"
+    },
+    {
+      "id": "slipring",
+      "Tr": "Yalnız güç iletimi içi kollektör kullanımı",
+      "En": "Slipring is used for power transfering only",
+      "Ru": "376",
+      "Es": "377",
+      "Fr": "378",
+      "De": "379"
+    },
+    {
+      "id": "info-doubleTwistBunchingLine",
+      "Tr": "383",
+      "En": "384",
+      "Ru": "385",
+      "Es": "386",
+      "Fr": "387",
+      "De": "388"
+    },
+    {
+      "id": "info-singleTwistBunchingLine",
+      "Tr": "392",
+      "En": "393",
+      "Ru": "394",
+      "Es": "395",
+      "Fr": "396",
+      "De": "397"
+    },
+    {
+      "id": "info-doubleTwistBuncher",
+      "Tr": "401",
+      "En": "402",
+      "Ru": "403",
+      "Es": "404",
+      "Fr": "405",
+      "De": "406"
+    },
+    {
+      "id": "info-singleTwistBuncher",
+      "Tr": "410",
+      "En": "411",
+      "Ru": "412",
+      "Es": "413",
+      "Fr": "414",
+      "De": "415"
+    },
+    {
+      "id": "info-bunchingSpare",
+      "Tr": "Diğer Ekipmanlar",
+      "En": "Others",
+      "Ru": "Другие инструменты",
+      "Es": "Otras herramientas",
+      "Fr": "Autres outils",
+      "De": "Andere Werkzeuge"
+    },
+    {
+      "id": "stranding-main",
+      "Tr": "Büküm Çözümleri",
+      "En": "Laying Up Solutions",
+      "Ru": "430",
+      "Es": "431",
+      "Fr": "432",
+      "De": "433"
+    },
+    {
+      "id": "stranding-main-announce-1",
+      "Tr": "437",
+      "En": "438",
+      "Ru": "439",
+      "Es": "440",
+      "Fr": "441",
+      "De": "442"
+    },
+    {
+      "id": "info-drumLine",
+      "Tr": "446",
+      "En": "447",
+      "Ru": "448",
+      "Es": "449",
+      "Fr": "450",
+      "De": "451"
+    },
+    {
+      "id": "info-planetLine",
+      "Tr": "455",
+      "En": "456",
+      "Ru": "457",
+      "Es": "458",
+      "Fr": "459",
+      "De": "460"
+    },
+    {
+      "id": "info-rigidLine",
+      "Tr": "464",
+      "En": "465",
+      "Ru": "466",
+      "Es": "467",
+      "Fr": "468",
+      "De": "469"
+    },
+    {
+      "id": "info-skipLine",
+      "Tr": "info-skipLine-Tr",
+      "En": "info-skipLine-En",
+      "Ru": "info-skipLine-Ru",
+      "Es": "info-skipLine-Es",
+      "Fr": "info-skipLine-Fr",
+      "De": "info-skipLine-De"
+    },
+    {
+      "id": "info-drumTwister",
+      "Tr": "482",
+      "En": "483",
+      "Ru": "484",
+      "Es": "485",
+      "Fr": "486",
+      "De": "487"
+    },
+    {
+      "id": "info-planetaryStrander",
+      "Tr": "491",
+      "En": "492",
+      "Ru": "493",
+      "Es": "494",
+      "Fr": "495",
+      "De": "496"
+    },
+    {
+      "id": "info-rigidStrander",
+      "Tr": "500",
+      "En": "501",
+      "Ru": "502",
+      "Es": "503",
+      "Fr": "504",
+      "De": "505"
+    },
+    {
+      "id": "info-skipStrander",
+      "Tr": "509",
+      "En": "510",
+      "Ru": "511",
+      "Es": "512",
+      "Fr": "513",
+      "De": "514"
+    },
+    {
+      "id": "info-strandingSpare",
+      "Tr": "Diğer Ekipmanlar",
+      "En": "Others",
+      "Ru": "Другие инструменты",
+      "Es": "Otras herramientas",
+      "Fr": "Autres outils",
+      "De": "Andere Werkzeuge"
+    },
+    {
+      "id": "armouring-main",
+      "Tr": "Zırhlama Çözümleri",
+      "En": "Armoring Solutions",
+      "Ru": "Решения для бронирования",
+      "Es": "Soluciones de blindaje",
+      "Fr": "Solutions de blindage",
+      "De": "Panzerungslösungen"
+    },
+    {
+      "id": "armouring-main-announce-1",
+      "Tr": "536",
+      "En": "537",
+      "Ru": "538",
+      "Es": "539",
+      "Fr": "540",
+      "De": "541"
+    },
+    {
+      "id": "info-rigidArmouringLine",
+      "Tr": "545",
+      "En": "546",
+      "Ru": "547",
+      "Es": "548",
+      "Fr": "549",
+      "De": "550"
+    },
+    {
+      "id": "info-steelTapeArmouringLine",
+      "Tr": "554",
+      "En": "555",
+      "Ru": "556",
+      "Es": "557",
+      "Fr": "558",
+      "De": "559"
+    },
+    {
+      "id": "info-rigidArmouring",
+      "Tr": "563",
+      "En": "564",
+      "Ru": "565",
+      "Es": "566",
+      "Fr": "567",
+      "De": "568"
+    },
+    {
+      "id": "info-steelTaping",
+      "Tr": "572",
+      "En": "573",
+      "Ru": "574",
+      "Es": "575",
+      "Fr": "576",
+      "De": "577"
+    },
+    {
+      "id": "info-armouringSpare",
+      "Tr": "Diğer Ekipmanlar",
+      "En": "Others",
+      "Ru": "Другие инструменты",
+      "Es": "Otras herramientas",
+      "Fr": "Autres outils",
+      "De": "Andere Werkzeuge"
+    },
+    {
+      "id": "pulling-main",
+      "Tr": "Çekici Çözümleri",
+      "En": "Haul Off Solutions",
+      "Ru": "592",
+      "Es": "593",
+      "Fr": "594",
+      "De": "595"
+    },
+    {
+      "id": "pulling-main-announce-1",
+      "Tr": "599",
+      "En": "600",
+      "Ru": "601",
+      "Es": "602",
+      "Fr": "603",
+      "De": "604"
+    },
+    {
+      "id": "info-caterpillarCapstan",
+      "Tr": "608",
+      "En": "609",
+      "Ru": "610",
+      "Es": "611",
+      "Fr": "612",
+      "De": "613"
+    },
+    {
+      "id": "info-rotatingCaterpillarCapstan",
+      "Tr": "617",
+      "En": "618",
+      "Ru": "619",
+      "Es": "620",
+      "Fr": "621",
+      "De": "622"
+    },
+    {
+      "id": "info-discCapstan",
+      "Tr": "626",
+      "En": "627",
+      "Ru": "628",
+      "Es": "629",
+      "Fr": "630",
+      "De": "631"
+    },
+    {
+      "id": "info-pullingSpare",
+      "Tr": "Diğer Cihaz ve Makineler",
+      "En": "Other Tool and Devices",
+      "Ru": "637",
+      "Es": "638",
+      "Fr": "639",
+      "De": "640"
+    },
+    {
+      "id": "rewinding-main",
+      "Tr": "Aktarma Çözümleri",
+      "En": "Rewinding Solutions",
+      "Ru": "646",
+      "Es": "647",
+      "Fr": "648",
+      "De": "649"
+    },
+    {
+      "id": "rewinding-main-announce-1",
+      "Tr": "653",
+      "En": "654",
+      "Ru": "655",
+      "Es": "656",
+      "Fr": "657",
+      "De": "658"
+    },
+    {
+      "id": "info-rewindingLine",
+      "Tr": "662",
+      "En": "663",
+      "Ru": "664",
+      "Es": "665",
+      "Fr": "666",
+      "De": "667"
+    },
+    {
+      "id": "info-rewindingSpare",
+      "Tr": "Diğer Ekipmanlar",
+      "En": "Others",
+      "Ru": "Другие инструменты",
+      "Es": "Otras herramientas",
+      "Fr": "Autres outils",
+      "De": "Andere Werkzeuge"
+    },
+    {
+      "id": "taping-main",
+      "Tr": "Bantlama Çözümleri",
+      "En": "Taping Solutions",
+      "Ru": "682",
+      "Es": "683",
+      "Fr": "684",
+      "De": "685"
+    },
+    {
+      "id": "taping-main-announce-1",
+      "Tr": "689",
+      "En": "690",
+      "Ru": "691",
+      "Es": "692",
+      "Fr": "693",
+      "De": "694"
+    },
+    {
+      "id": "info-tapingLine",
+      "Tr": "698",
+      "En": "699",
+      "Ru": "700",
+      "Es": "701",
+      "Fr": "702",
+      "De": "703"
+    },
+    {
+      "id": "info-concentricTaping",
+      "Tr": "707",
+      "En": "708",
+      "Ru": "709",
+      "Es": "710",
+      "Fr": "711",
+      "De": "712"
+    },
+    {
+      "id": "info-tangentialDoubleColumn",
+      "Tr": "716",
+      "En": "717",
+      "Ru": "718",
+      "Es": "719",
+      "Fr": "720",
+      "De": "721"
+    },
+    {
+      "id": "info-tangentialSingleColumn",
+      "Tr": "725",
+      "En": "726",
+      "Ru": "727",
+      "Es": "728",
+      "Fr": "729",
+      "De": "730"
+    },
+    {
+      "id": "info-simpleTapePayOff",
+      "Tr": "734",
+      "En": "735",
+      "Ru": "736",
+      "Es": "737",
+      "Fr": "738",
+      "De": "739"
+    },
+    {
+      "id": "info-tapingSpare",
+      "Tr": "Diğer Ekipmanlar",
+      "En": "Others",
+      "Ru": "Другие инструменты",
+      "Es": "Otras herramientas",
+      "Fr": "Autres outils",
+      "De": "Andere Werkzeuge"
+    },
+    {
+      "id": "spooling-main",
+      "Tr": "Sarıcı ve Boşaltıcılar",
+      "En": "Winding - Unwinding Solutions",
+      "Ru": "754",
+      "Es": "755",
+      "Fr": "756",
+      "De": "757"
+    },
+    {
+      "id": "spooling-main-announce-1",
+      "Tr": "761",
+      "En": "762",
+      "Ru": "763",
+      "Es": "764",
+      "Fr": "765",
+      "De": "766"
+    },
+    {
+      "id": "info-multiWirePo",
+      "Tr": "770",
+      "En": "771",
+      "Ru": "772",
+      "Es": "773",
+      "Fr": "774",
+      "De": "775"
+    },
+    {
+      "id": "info-backtwistPo",
+      "Tr": "779",
+      "En": "780",
+      "Ru": "781",
+      "Es": "782",
+      "Fr": "783",
+      "De": "784"
+    },
+    {
+      "id": "info-flyerPo",
+      "Tr": "788",
+      "En": "789",
+      "Ru": "790",
+      "Es": "791",
+      "Fr": "792",
+      "De": "793"
+    },
+    {
+      "id": "info-doubleSpoolerTu",
+      "Tr": "797",
+      "En": "798",
+      "Ru": "799",
+      "Es": "800",
+      "Fr": "801",
+      "De": "802"
+    },
+    {
+      "id": "info-forkTypePoTu",
+      "Tr": "806",
+      "En": "807",
+      "Ru": "808",
+      "Es": "809",
+      "Fr": "810",
+      "De": "811"
+    },
+    {
+      "id": "info-spoolerPoTu",
+      "Tr": "815",
+      "En": "816",
+      "Ru": "817",
+      "Es": "818",
+      "Fr": "819",
+      "De": "820"
+    },
+    {
+      "id": "info-portalPoTu",
+      "Tr": "824",
+      "En": "825",
+      "Ru": "826",
+      "Es": "827",
+      "Fr": "828",
+      "De": "829"
+    },
+    {
+      "id": "info-spoolingSpare",
+      "Tr": "Diğer Cihaz ve Makineler",
+      "En": "Other Tool and Devices",
+      "Ru": "835",
+      "Es": "836",
+      "Fr": "837",
+      "De": "838"
+    },
+    {
+      "id": "coiling-main",
+      "Tr": "Kangallama Çözümleri",
+      "En": "843",
+      "Ru": "844",
+      "Es": "845",
+      "Fr": "846",
+      "De": "847"
+    },
+    {
+      "id": "coiling-main-announce-1",
+      "Tr": "851",
+      "En": "852",
+      "Ru": "853",
+      "Es": "854",
+      "Fr": "855",
+      "De": "856"
+    },
+    {
+      "id": "info-coilingLine",
+      "Tr": "860",
+      "En": "861",
+      "Ru": "862",
+      "Es": "863",
+      "Fr": "864",
+      "De": "865"
+    },
+    {
+      "id": "info-automaticCoiler",
+      "Tr": "869",
+      "En": "870",
+      "Ru": "871",
+      "Es": "872",
+      "Fr": "873",
+      "De": "874"
+    },
+    {
+      "id": "info-manuelCoiler",
+      "Tr": "878",
+      "En": "879",
+      "Ru": "880",
+      "Es": "881",
+      "Fr": "882",
+      "De": "883"
+    },
+    {
+      "id": "info-woodenReelCoiler",
+      "Tr": "887",
+      "En": "888",
+      "Ru": "889",
+      "Es": "890",
+      "Fr": "891",
+      "De": "892"
+    },
+    {
+      "id": "info-coilingSpare",
+      "Tr": "Diğer Ekipmanlar",
+      "En": "Others",
+      "Ru": "Другие инструменты",
+      "Es": "Otras herramientas",
+      "Fr": "Autres outils",
+      "De": "Andere Werkzeuge"
+    },
+    {
+      "id": "extrusionLine-Tab",
+      "Tr": "İzolasyon Hatları",
+      "En": "Insulation Lines",
+      "Ru": "907",
+      "Es": "908",
+      "Fr": "909",
+      "De": "910"
+    },
+    {
+      "id": "extruder-Tab",
+      "Tr": "Ekstruder",
+      "En": "Extruder",
+      "Ru": "916",
+      "Es": "917",
+      "Fr": "918",
+      "De": "919"
+    },
+    {
+      "id": "crossHead-Tab",
+      "Tr": "Çapraz Kafa",
+      "En": "Cross Head",
+      "Ru": "925",
+      "Es": "926",
+      "Fr": "927",
+      "De": "928"
+    },
+    {
+      "id": "screwAndBarrel-Tab",
+      "Tr": "Vida Kovan",
+      "En": "Screw Barrel",
+      "Ru": "934",
+      "Es": "935",
+      "Fr": "936",
+      "De": "937"
+    },
+    {
+      "id": "coolingThrough-Tab",
+      "Tr": "Soğutma Tüneli",
+      "En": "Cooling Through",
+      "Ru": "943",
+      "Es": "944",
+      "Fr": "945",
+      "De": "946"
+    },
+    {
+      "id": "tipAndDie-Tab",
+      "Tr": "Ayna Nipel",
+      "En": "Tip and Die",
+      "Ru": "952",
+      "Es": "953",
+      "Fr": "954",
+      "De": "955"
+    },
+    {
+      "id": "insulationSpare-Tab",
+      "Tr": "Diğer Ekipmanlar",
+      "En": "Others",
+      "Ru": "Другие инструменты",
+      "Es": "Otras herramientas",
+      "Fr": "Autres outils",
+      "De": "Andere Werkzeuge"
+    },
+    {
+      "id": "doubleTwistBunchingLine-Tab",
+      "Tr": "Buncher Büküm Hattı",
+      "En": "Double Twist Line",
+      "Ru": "970",
+      "Es": "971",
+      "Fr": "972",
+      "De": "973"
+    },
+    {
+      "id": "singleTwistBunchingLine-Tab",
+      "Tr": "Single Büküm Hattı",
+      "En": "Single Twist Line",
+      "Ru": "979",
+      "Es": "980",
+      "Fr": "981",
+      "De": "982"
+    },
+    {
+      "id": "doubleTwistBuncher-Tab",
+      "Tr": "Buncher Büküm",
+      "En": "Double Twist Buncher",
+      "Ru": "988",
+      "Es": "989",
+      "Fr": "990",
+      "De": "991"
+    },
+    {
+      "id": "singleTwistBuncher-Tab",
+      "Tr": "Single Büküm",
+      "En": "Single Twist Buncher",
+      "Ru": "997",
+      "Es": "998",
+      "Fr": "999",
+      "De": "1000"
+    },
+    {
+      "id": "bunchingSpare-Tab",
+      "Tr": "Diğer Cihaz ve Makineler",
+      "En": "Other Tool and Devices",
+      "Ru": "1006",
+      "Es": "1007",
+      "Fr": "1008",
+      "De": "1009"
+    },
+    {
+      "id": "drumLine-Tab",
+      "Tr": "Drum Hattı",
+      "En": "Drum Twister Line",
+      "Ru": "1015",
+      "Es": "1016",
+      "Fr": "1017",
+      "De": "1018"
+    },
+    {
+      "id": "planetLine-Tab",
+      "Tr": "Planet Büküm Hattı",
+      "En": "Planetary Stranding Line",
+      "Ru": "1024",
+      "Es": "1025",
+      "Fr": "1026",
+      "De": "1027"
+    },
+    {
+      "id": "rigidLine-Tab",
+      "Tr": "Rijit Büküm Hattı",
+      "En": "Rijid Stranding Line",
+      "Ru": "1033",
+      "Es": "1034",
+      "Fr": "1035",
+      "De": "1036"
+    },
+    {
+      "id": "skipLine-Tab",
+      "Tr": "Bavlı Büküm Hattı",
+      "En": "Skip Strander Line",
+      "Ru": "1042",
+      "Es": "1043",
+      "Fr": "1044",
+      "De": "1045"
+    },
+    {
+      "id": "drumTwister-Tab",
+      "Tr": "Drum Büküm",
+      "En": "Drum Twister",
+      "Ru": "1051",
+      "Es": "1052",
+      "Fr": "1053",
+      "De": "1054"
+    },
+    {
+      "id": "planetaryStrander-Tab",
+      "Tr": "Planet Büküm",
+      "En": "Planetary Strander",
+      "Ru": "1060",
+      "Es": "1061",
+      "Fr": "1062",
+      "De": "1063"
+    },
+    {
+      "id": "rigidStrander-Tab",
+      "Tr": "Rijit Büküm",
+      "En": "Rigid Strander",
+      "Ru": "1069",
+      "Es": "1070",
+      "Fr": "1071",
+      "De": "1072"
+    },
+    {
+      "id": "skipStrander-Tab",
+      "Tr": "Bavlı Büküm",
+      "En": "Skip (Bow) Strander",
+      "Ru": "1078",
+      "Es": "1079",
+      "Fr": "1080",
+      "De": "1081"
+    },
+    {
+      "id": "strandingSpare-Tab",
+      "Tr": "Diğer Ekipmanlar",
+      "En": "Others",
+      "Ru": "Другие инструменты",
+      "Es": "Otras herramientas",
+      "Fr": "Autres outils",
+      "De": "Andere Werkzeuge"
+    },
+    {
+      "id": "rigidArmouringLine-Tab",
+      "Tr": "Rijit Zırhlama Hattı",
+      "En": "Rigid Armoring Line",
+      "Ru": "1096",
+      "Es": "1097",
+      "Fr": "1098",
+      "De": "1099"
+    },
+    {
+      "id": "steelTapeArmouringLine-Tab",
+      "Tr": "Çelik Bantlama Hattı",
+      "En": "Steel Taping Line",
+      "Ru": "1105",
+      "Es": "1106",
+      "Fr": "1107",
+      "De": "1108"
+    },
+    {
+      "id": "rigidArmouring-Tab",
+      "Tr": "Rijit Armürleme",
+      "En": "Rigid Armoring",
+      "Ru": "1114",
+      "Es": "1115",
+      "Fr": "1116",
+      "De": "1117"
+    },
+    {
+      "id": "steelTaping-Tab",
+      "Tr": "Çelik Bantlama",
+      "En": "Steel Taping",
+      "Ru": "1123",
+      "Es": "1124",
+      "Fr": "1125",
+      "De": "1126"
+    },
+    {
+      "id": "armouringSpare-Tab",
+      "Tr": "Diğer Ekipmanlar",
+      "En": "Others",
+      "Ru": "Другие инструменты",
+      "Es": "Otras herramientas",
+      "Fr": "Autres outils",
+      "De": "Andere Werkzeuge"
+    },
+    {
+      "id": "caterpillarCapstan-Tab",
+      "Tr": "Katerpiller Çekici",
+      "En": "Caterpillar Capstan",
+      "Ru": "1141",
+      "Es": "1142",
+      "Fr": "1143",
+      "De": "1144"
+    },
+    {
+      "id": "rotatingCaterpillarCapstan-Tab",
+      "Tr": "Döner Katerpiller Çekici",
+      "En": "Rotating Caterpillar Capstan",
+      "Ru": "1150",
+      "Es": "1151",
+      "Fr": "1152",
+      "De": "1153"
+    },
+    {
+      "id": "discCapstan-Tab",
+      "Tr": "Kasnaklı Çekiçi",
+      "En": "Disc Capstan",
+      "Ru": "1159",
+      "Es": "1160",
+      "Fr": "1161",
+      "De": "1162"
+    },
+    {
+      "id": "pullingSpare-Tab",
+      "Tr": "Diğer Ekipmanlar",
+      "En": "Others",
+      "Ru": "Другие инструменты",
+      "Es": "Otras herramientas",
+      "Fr": "Autres outils",
+      "De": "Andere Werkzeuge"
+    },
+    {
+      "id": "rewindingLine-Tab",
+      "Tr": "Aktarma Hattı",
+      "En": "Rewinding Line",
+      "Ru": "1177",
+      "Es": "1178",
+      "Fr": "1179",
+      "De": "1180"
+    },
+    {
+      "id": "rewindingSpare-Tab",
+      "Tr": "Diğer Ekipmanlar",
+      "En": "Others",
+      "Ru": "Другие инструменты",
+      "Es": "Otras herramientas",
+      "Fr": "Autres outils",
+      "De": "Andere Werkzeuge"
+    },
+    {
+      "id": "tapingLine-Tab",
+      "Tr": "Bantlama Hattı",
+      "En": "Taping Line",
+      "Ru": "1195",
+      "Es": "1196",
+      "Fr": "1197",
+      "De": "1198"
+    },
+    {
+      "id": "concentricTaping-Tab",
+      "Tr": "Konsantrik Bantlama",
+      "En": "Concentric Taping",
+      "Ru": "1204",
+      "Es": "1205",
+      "Fr": "1206",
+      "De": "1207"
+    },
+    {
+      "id": "tangentialDoubleColumn-Tab",
+      "Tr": "Çift Yataklı Tanjantiyel Bantlama",
+      "En": "Double Column Tangential Taping",
+      "Ru": "1213",
+      "Es": "1214",
+      "Fr": "1215",
+      "De": "1216"
+    },
+    {
+      "id": "tangentialSingleColumn-Tab",
+      "Tr": "Tek Yataklı Tanjantiyel Bantlama",
+      "En": "Single Column Tangential Taping",
+      "Ru": "1222",
+      "Es": "1223",
+      "Fr": "1224",
+      "De": "1225"
+    },
+    {
+      "id": "simpleTapePayOff-Tab",
+      "Tr": "Basit Tip Bant Boşaltıcı",
+      "En": "Simple Type Tape Pay Off",
+      "Ru": "1231",
+      "Es": "1232",
+      "Fr": "1233",
+      "De": "1234"
+    },
+    {
+      "id": "tapingSpare-Tab",
+      "Tr": "Diğer Ekipmanlar",
+      "En": "Others",
+      "Ru": "Другие инструменты",
+      "Es": "Otras herramientas",
+      "Fr": "Autres outils",
+      "De": "Andere Werkzeuge"
+    },
+    {
+      "id": "multiWirePo-Tab",
+      "Tr": "Çoklu Boşaltıcı",
+      "En": "Multi Wire Pay Off",
+      "Ru": "1249",
+      "Es": "1250",
+      "Fr": "1251",
+      "De": "1252"
+    },
+    {
+      "id": "backtwistPo-Tab",
+      "Tr": "Perleme Boşaltıcısı",
+      "En": "Backtwist Pairing Pay Off",
+      "Ru": "1258",
+      "Es": "1259",
+      "Fr": "1260",
+      "De": "1261"
+    },
+    {
+      "id": "flyerPo-Tab",
+      "Tr": "Flyer",
+      "En": "Flyer",
+      "Ru": "1267",
+      "Es": "1268",
+      "Fr": "1269",
+      "De": "1270"
+    },
+    {
+      "id": "doubleSpoolerTu-Tab",
+      "Tr": "Otomatik İkili Sarıcı",
+      "En": "Automatic Double Spooler",
+      "Ru": "1276",
+      "Es": "1277",
+      "Fr": "1278",
+      "De": "1279"
+    },
+    {
+      "id": "forkTypePoTu-Tab",
+      "Tr": "Çatal Tipi",
+      "En": "Fork Type",
+      "Ru": "1285",
+      "Es": "1286",
+      "Fr": "1287",
+      "De": "1288"
+    },
+    {
+      "id": "spoolerPoTu-Tab",
+      "Tr": "Hızlı Tip",
+      "En": "High Speed",
+      "Ru": "1294",
+      "Es": "1295",
+      "Fr": "1296",
+      "De": "1297"
+    },
+    {
+      "id": "portalPoTu-Tab",
+      "Tr": "Kule ",
+      "En": "Portal Type",
+      "Ru": "1303",
+      "Es": "1304",
+      "Fr": "1305",
+      "De": "1306"
+    },
+    {
+      "id": "spoolingSpare-Tab",
+      "Tr": "Diğer Ekipmanlar",
+      "En": "Others",
+      "Ru": "Другие инструменты",
+      "Es": "Otras herramientas",
+      "Fr": "Autres outils",
+      "De": "Andere Werkzeuge"
+    },
+    {
+      "id": "coilingLine-Tab",
+      "Tr": "Kangallama Hatları",
+      "En": "Coiling Lines",
+      "Ru": "1321",
+      "Es": "1322",
+      "Fr": "1323",
+      "De": "1324"
+    },
+    {
+      "id": "automaticCoiler-Tab",
+      "Tr": "Tam Otomatik Kangallama",
+      "En": "Automatic Coiler",
+      "Ru": "1330",
+      "Es": "1331",
+      "Fr": "1332",
+      "De": "1333"
+    },
+    {
+      "id": "manuelCoiler-Tab",
+      "Tr": "Manuel Kangallama",
+      "En": "Manual Coiler",
+      "Ru": "1339",
+      "Es": "1340",
+      "Fr": "1341",
+      "De": "1342"
+    },
+    {
+      "id": "woodenReelCoiler-Tab",
+      "Tr": "Tahta Makara Sarıcı",
+      "En": "Wooden Reel Coiler",
+      "Ru": "1348",
+      "Es": "1349",
+      "Fr": "1350",
+      "De": "1351"
+    },
+    {
+      "id": "coilingSpare-Tab",
+      "Tr": "Diğer Ekipmanlar",
+      "En": "Others",
+      "Ru": "Другие инструменты",
+      "Es": "Otras herramientas",
+      "Fr": "Autres outils",
+      "De": "Andere Werkzeuge"
+    },
+    {
+      "id": "products-Bold",
+      "Tr": "Ürün Grupları",
+      "En": "Product Groups",
+      "Ru": "1366",
+      "Es": "1367",
+      "Fr": "1368",
+      "De": "1369"
+    },
+    {
+      "id": "products-Text",
+      "Tr": "Üstün Kaliteli Kablo Üretim Makineleri",
+      "En": "Top Quality Cable Production Machines",
+      "Ru": "1375",
+      "Es": "1376",
+      "Fr": "1377",
+      "De": "1378"
+    },
+    {
+      "id": "advantages-Bold",
+      "Tr": "Neden Aymak Makinelerini Seçmeliyim ?",
+      "En": "Why to choose IMACH Machines ?",
+      "Ru": "1384",
+      "Es": "1385",
+      "Fr": "1386",
+      "De": "1387"
+    },
+    {
+      "id": "advantages-Text",
+      "Tr": "Memnuniyetiniz teminatımızdır",
+      "En": "We are committed to make you satisfied. ",
+      "Ru": "1393",
+      "Es": "1394",
+      "Fr": "1395",
+      "De": "1396"
+    },
+    {
+      "id": "advantages1-Bold",
+      "Tr": "Gerçekçi Fiyat Veririz.",
+      "En": "Attractive Price",
+      "Ru": "1402",
+      "Es": "1403",
+      "Fr": "1404",
+      "De": "1405"
+    },
+    {
+      "id": "advantages1-Text",
+      "Tr": "1409",
+      "En": "1410",
+      "Ru": "1411",
+      "Es": "1412",
+      "Fr": "1413",
+      "De": "1414"
+    },
+    {
+      "id": "advantages2-Bold",
+      "Tr": "Kaliteden Asla Ödün Vermeyiz.",
+      "En": "Top Quality Machines",
+      "Ru": "1420",
+      "Es": "1421",
+      "Fr": "1422",
+      "De": "1423"
+    },
+    {
+      "id": "advantages2-Text",
+      "Tr": "1427",
+      "En": "1428",
+      "Ru": "1429",
+      "Es": "1430",
+      "Fr": "1431",
+      "De": "1432"
+    },
+    {
+      "id": "advantages3-Bold",
+      "Tr": "Zamanında Teslim Ederiz.",
+      "En": "On Time Delivery",
+      "Ru": "1438",
+      "Es": "1439",
+      "Fr": "1440",
+      "De": "1441"
+    },
+    {
+      "id": "advantages3-Text",
+      "Tr": "1445",
+      "En": "1446",
+      "Ru": "1447",
+      "Es": "1448",
+      "Fr": "1449",
+      "De": "1450"
+    },
+    {
+      "id": "advantages4-Bold",
+      "Tr": "Mali Yapımız Güçlüdür.",
+      "En": "1455",
+      "Ru": "1456",
+      "Es": "1457",
+      "Fr": "1458",
+      "De": "1459"
+    },
+    {
+      "id": "advantages4-Text",
+      "Tr": "1463",
+      "En": "1464",
+      "Ru": "1465",
+      "Es": "1466",
+      "Fr": "1467",
+      "De": "1468"
+    },
+    {
+      "id": "advantages5-Bold",
+      "Tr": "Ekip Transfer Süresinde Rakipsiziz.",
+      "En": "1473",
+      "Ru": "1474",
+      "Es": "1475",
+      "Fr": "1476",
+      "De": "1477"
+    },
+    {
+      "id": "advantages5-Text",
+      "Tr": "1481",
+      "En": "1482",
+      "Ru": "1483",
+      "Es": "1484",
+      "Fr": "1485",
+      "De": "1486"
+    },
+    {
+      "id": "advantages6-Bold",
+      "Tr": "7/24 Bize Ulaşabilirsiniz.",
+      "En": "1491",
+      "Ru": "1492",
+      "Es": "1493",
+      "Fr": "1494",
+      "De": "1495"
+    },
+    {
+      "id": "advantages6-Text",
+      "Tr": "1499",
+      "En": "1500",
+      "Ru": "1501",
+      "Es": "1502",
+      "Fr": "1503",
+      "De": "1504"
+    },
+    {
+      "id": "advantages7-Bold",
+      "Tr": "Yazılımlarımızı Uzaktan Güncelleyebiliriz. ",
+      "En": "1509",
+      "Ru": "1510",
+      "Es": "1511",
+      "Fr": "1512",
+      "De": "1513"
+    },
+    {
+      "id": "advantages7-Text",
+      "Tr": "1517",
+      "En": "1518",
+      "Ru": "1519",
+      "Es": "1520",
+      "Fr": "1521",
+      "De": "1522"
+    },
+    {
+      "id": "advantages8-Bold",
+      "Tr": "En Kaliteli Komponentleri Kullanırız.",
+      "En": "1527",
+      "Ru": "1528",
+      "Es": "1529",
+      "Fr": "1530",
+      "De": "1531"
+    },
+    {
+      "id": "advantages8-Text",
+      "Tr": "1535",
+      "En": "1536",
+      "Ru": "1537",
+      "Es": "1538",
+      "Fr": "1539",
+      "De": "1540"
+    },
+    {
+      "id": "advantages9-Bold",
+      "Tr": "Çok Hızlı Teklif Üretiriz.",
+      "En": "1545",
+      "Ru": "1546",
+      "Es": "1547",
+      "Fr": "1548",
+      "De": "1549"
+
+    },
+    {
+      "id": "advantages9-Text",
+      "Tr": "1554",
+      "En": "1555",
+      "Ru": "1556",
+      "Es": "1557",
+      "Fr": "1558",
+      "De": "1559"
+    },
+    {
+      "id": "countsYear",
+      "Tr": "Yıl",
+      "En": "Year",
+      "Ru": "Год",
+      "Es": "Año",
+      "Fr": "An",
+      "De": "Jahr"
+    },
+    {
+      "id": "countsCountry",
+      "Tr": "Ülke",
+      "En": "Country",
+      "Ru": "Страна",
+      "Es": "País",
+      "Fr": "Pays",
+      "De": "Land"
+    },
+    {
+      "id": "countsCustomer",
+      "Tr": "Müşteri",
+      "En": "Customer",
+      "Ru": "Клиент",
+      "Es": "Cliente",
+      "Fr": "Client",
+      "De": "Kunde"
+    },
+    {
+      "id": "countsMachines",
+      "Tr": "Makine",
+      "En": "Machine",
+      "Ru": "Машина",
+      "Es": "Máquina",
+      "Fr": "Machine",
+      "De": "Maschine"
+    },
+    {
+      "id": "whoWeAre-Bold",
+      "Tr": "Biz Kimiz ?",
+      "En": "Who We Are ?",
+      "Ru": "Кто мы ?",
+      "Es": "Quienes somos ?",
+      "Fr": "Qui nous sommes ?",
+      "De": "Wer wir sind ?"
+    },
+    {
+      "id": "whoWeAre-Text",
+      "Tr": "Bizi Tanıyın.",
+      "En": "Get to know us.",
+      "Ru": "Узнай нас",
+      "Es": "Conocernos",
+      "Fr": "Apprendre a nous connaitre",
+      "De": "Lernen Sie uns kennen"
+    },
+    {
+      "id": "history-Bold",
+      "Tr": "Tarihçe",
+      "En": "History",
+      "Ru": "история",
+      "Es": "Historia",
+      "Fr": "Histoire",
+      "De": "Geschichte"
+    },
+    {
+      "id": "history-Text",
+      "Tr": "Dünden bugüne Aymak Makine...",
+      "En": "Past to present IMACH Machines...",
+      "Ru": "Прошлое, чтобы представить IMACH Machines...",
+      "Es": "Pasado al presente IMACH Machines...",
+      "Fr": "Du passé au présent IMACH Machines...",
+      "De": "Vergangenheit bis Gegenwart IMACH Machines..."
+    },
+    {
+      "id": "qualityPolicy-Bold",
+      "Tr": "Kalite Politikası",
+      "En": "Quality Policy",
+      "Ru": "Политика качества",
+      "Es": "Política de calidad",
+      "Fr": "Politique de qualité",
+      "De": "Qualitätsrichtlinie"
+    },
+    {
+      "id": "qualityPolicy-Text",
+      "Tr": "Daha iyisi için durmadan çalışıyoruz...",
+      "En": "We are improving our quality every day...",
+      "Ru": "Мы улучшаем наше качество каждый день...",
+      "Es": "Estamos mejorando nuestra calidad todos los día...",
+      "Fr": "Nous améliorons chaque jour notre qualité...",
+      "De": "Wir verbessern jeden Tag unsere Qualität..."
+    },
+    {
+      "id": "certificates-Bold",
+      "Tr": "Sertifikalarımız",
+      "En": "Certificates",
+      "Ru": "Сертификаты",
+      "Es": "Certificados",
+      "Fr": "Certificats",
+      "De": "Zertifikate"
+    },
+    {
+      "id": "certificates-Text",
+      "Tr": "ISO 9001:2015, EAC, CE...",
+      "En": "ISO 9001:2015, EAC, CE...",
+      "Ru": "ISO 9001:2015, EAC, CE...",
+      "Es": "ISO 9001:2015, EAC, CE...",
+      "Fr": "ISO 9001:2015, EAC, CE...",
+      "De": "ISO 9001:2015, EAC, CE..."
+    },
+    {
+      "id": "ctaYouTube-Bold",
+      "Tr": "YouTube kanalımızı ziyaret ettiniz mi?",
+      "En": "Did you visit our YouTube Channel?",
+      "Ru": "Вы посетили наш канал на YouTube?",
+      "Es": "Visitaste nuestro canal de YouTube?",
+      "Fr": "Avez-vous visité notre chaîne YouTube?",
+      "De": "Hast du unseren YouTube-Kanal besucht?"
+    },
+    {
+      "id": "ctaYouTube-Text",
+      "Tr": "Makinlerimizi iş başında izleyin. ",
+      "En": "Watch our machines in action.",
+      "Ru": "Смотрите наши машины в действии.",
+      "Es": "Mira nuestras máquinas en acción.",
+      "Fr": "Regardez nos machines en action.",
+      "De": "Beobachten Sie unsere Maschinen in Aktion."
+    },
+    {
+      "id": "cta-button",
+      "Tr": "Gidelim",
+      "En": "Let's Go",
+      "Ru": "Пойдем",
+      "Es": "Vamonos",
+      "Fr": "Allons-y",
+      "De": "Lass uns gehen"
+    },
+    {
+      "id": "team-Bold",
+      "Tr": "Müşteri İlişkileri Ekibimiz",
+      "En": "Customer Relations Team",
+      "Ru": "Отдел по работе с клиентами",
+      "Es": "Equipo de relaciones con el cliente",
+      "Fr": "Équipe des relations avec la clientèle",
+      "De": "Kundenbetreuungsteam"
+    },
+    {
+      "id": "team-Text",
+      "Tr": "Ekibimiz, sizin için her daim hazırdır.",
+      "En": "Our team is always ready for you.",
+      "Ru": "Наша команда всегда готова для вас.",
+      "Es": "Nuestro equipo siempre está listo para ti.",
+      "Fr": "Notre équipe est toujours prête pour vous.",
+      "De": "Unser Team ist bereit für Ihre Anfragen"
+    },
+    {
+      "id": "contact-Bold",
+      "Tr": "İletişim",
+      "En": "Contact",
+      "Ru": "контакт",
+      "Es": "Contacto",
+      "Fr": "Contact",
+      "De": "Kontakt"
+    },
+    {
+      "id": "contact-Text",
+      "Tr": "Sizinle tanışmaktan mutluluk duyarız.",
+      "En": "We will be pleased to meet you.",
+      "Ru": "Мы будем рады встретиться с вами.",
+      "Es": "Estaremos encantados de conocerte.",
+      "Fr": "Nous serons ravis de vous rencontrer.",
+      "De": "Wir freuen uns, Sie kennenzulernen."
+    },
+    {
+      "id": "address-Bold",
+      "Tr": "Adres",
+      "En": "Address",
+      "Ru": "Адрес",
+      "Es": "Habla a",
+      "Fr": "Adresse",
+      "De": "Adresse"
+    },
+    {
+      "id": "callUs-Bold",
+      "Tr": "Bizi Arayın",
+      "En": "Call Us",
+      "Ru": "Позвоните нам",
+      "Es": "Llamenos",
+      "Fr": "Appelez-nous",
+      "De": "Rufen Sie uns an"
+    },
+    {
+      "id": "eMailUs-Bold",
+      "Tr": "Bize Yazın",
+      "En": "Email Us",
+      "Ru": "Связаться с нами",
+      "Es": "Contáctenos",
+      "Fr": "Nous contacter",
+      "De": "Rufen Sie uns an"
+    },
+    {
+      "id": "openingHours-Bold",
+      "Tr": "İletişim Saatleri",
+      "En": "Opening Hours",
+      "Ru": "Часы работы",
+      "Es": "Часы работы",
+      "Fr": "Horaires d'ouvertures",
+      "De": "Часы работы"
+    },
+    {
+      "id": "openingHours-Text",
+      "Tr": "Pzt. - Cum.",
+      "En": "Mon. - Fri.",
+      "Ru": "Пон. - Пят.",
+      "Es": "Lun. - Vie.",
+      "Fr": "Lun - Ven",
+      "De": "Mon - Fir"
+    },
+    {
+      "id": "historyP1",
+      "Tr": "1779",
+      "En": "Aymak Makine Ltd. operates in the sector of machinery production for cable industry. We are one  of the biggest cable machinery producer in TURKEY. Our extensive knowledge gained in the sector over 30 years, the company improves it further by current technology and expert staff every day. Basing on an understanding of Total Quality and Customer Satisfaction, our company is certificated by the certificate of quality to the standard ISO EN 9001:2008.",
+      "Ru": "1781",
+      "Es": "1782",
+      "Fr": "1783",
+      "De": "1784"
+    },
+    {
+      "id": "historyP2",
+      "Tr": "1788",
+      "En": "With strict control over all machines and lines it has produced from the very establishment of the company throughout all phases from design to operation, our company constantly enhance and improve customer satisfaction with respect to timely delivery and service, making the trademark  IMACH® a shining star.",
+      "Ru": "1790",
+      "Es": "1791",
+      "Fr": "1792",
+      "De": "1793"
+    },
+    {
+      "id": "historyP3",
+      "Tr": "1797",
+      "En": "Managing and producing completely in its own body from offer to delivery, our company aims at meeting expectations of its customers, employees, shareholders and society, safeguarding the environment in which it operates, ensuring use of the natural resources efficiently, keeping it as its principle to improve constantly, enhancing total quality level through training with consistent quality targets, following up all technological developments to increase its competitive power under the hanging market condition be become a preferred company in the sector.",
+      "Ru": "1799",
+      "Es": "1800",
+      "Fr": "1801",
+      "De": "1802"
+    },
+    {
+      "id": "qualityPolicy1",
+      "Tr": "Müşteri, tedarikçi, çalışan, hissedar ve toplumun beklentilerini karşılayan,",
+      "En": "To meet the expectations of the customers, supplier, employee, share holder and society",
+      "Ru": "1808",
+      "Es": "1809",
+      "Fr": "1810",
+      "De": "1811"
+    },
+    {
+      "id": "qualityPolicy2",
+      "Tr": "Süreçlerin etkinliğini ve verimliliğini sürekli iyileştirmeyi ilke edinmiş,",
+      "En": "To be commited to continious improvement of efficiency and productivity of process",
+      "Ru": "1817",
+      "Es": "1818",
+      "Fr": "1819",
+      "De": "1820"
+    },
+    {
+      "id": "qualityPolicy3",
+      "Tr": "Kalite hedeflerinde tutarlı,",
+      "En": "To be consistent with our quality goals",
+      "Ru": "1826",
+      "Es": "1827",
+      "Fr": "1828",
+      "De": "1829"
+    },
+    {
+      "id": "qualityPolicy4",
+      "Tr": "Eğitimlerle, toplam kalite seviyesini arttıran,",
+      "En": "To raise the total quality level by means of training",
+      "Ru": "1835",
+      "Es": "1836",
+      "Fr": "1837",
+      "De": "1838"
+    },
+    {
+      "id": "qualityPolicy5",
+      "Tr": "Son kullanıcı memnuniyetinin sürekliliğini sağlamış",
+      "En": "To ensure permanent end user satisfaction",
+      "Ru": "1844",
+      "Es": "1845",
+      "Fr": "1846",
+      "De": "1847"
+    },
+    {
+      "id": "qualityPolicy6",
+      "Tr": "Çalıştığımız çevrenin korunmasını ve doğal kaynaklarımızın verimli bir şekilde kullanılmasını sağlamış",
+      "En": "Protection of environment and utilization of natural resources more effectively",
+      "Ru": "1853",
+      "Es": "1854",
+      "Fr": "1855",
+      "De": "1856"
+    },
+    {
+      "id": "qualityPolicy7",
+      "Tr": "Değişen pazar şartlarına uygun rekabet gücümüzü arttırıcı teknolojik gelişmeleri takip ederek, sektöründe tercih edilmeyi amaçlayan bir firmadır.",
+      "En": "Following the technological improvements & innovations which is the key essential tool. Reaps lasting benefits to our competiveness also contributes to our main objective 'which is to be considered as the most preffered company in our own field'",
+      "Ru": "1862",
+      "Es": "1863",
+      "Fr": "1864",
+      "De": "1865"
+    },
+    {
+      "id": "mpm",
+      "Tr": "Maks. Hat Hızı (m/dk)",
+      "En": "max. Linear Speed (mpm)",
+      "Ru": "1871",
+      "Es": "1872",
+      "Fr": "1873",
+      "De": "1874"
+    },
+    {
+      "id": "rpm",
+      "Tr": "Devir",
+      "En": "Rotation Speed",
+      "Ru": "1880",
+      "Es": "1881",
+      "Fr": "1882",
+      "De": "1883"
+    },
+    {
+      "id": "tpm",
+      "Tr": "Büküm Hızı",
+      "En": "Rotational Speed",
+      "Ru": "1889",
+      "Es": "1890",
+      "Fr": "1891",
+      "De": "1892"
+    },
+    {
+      "id": "weight",
+      "Tr": "Ağırlık",
+      "En": "Weight",
+      "Ru": "1898",
+      "Es": "1899",
+      "Fr": "1900",
+      "De": "1901"
+    },
+    {
+      "id": "crossSection",
+      "Tr": "Çalışma Aralığı",
+      "En": "Production Range",
+      "Ru": "1907",
+      "Es": "1908",
+      "Fr": "1909",
+      "De": "1910"
+    },
+    {
+      "id": "vibration",
+      "Tr": "Opsiyonel Vibrasyon Uyarı Sistemi",
+      "En": "Optional Vibration Alarm System",
+      "Ru": "1916",
+      "Es": "1917",
+      "Fr": "1918",
+      "De": "1919"
+    },
+    {
+      "id": "reel",
+      "Tr": "Opsiyonel Makara Tanıma Sistemi",
+      "En": "Optional Reel Reading System",
+      "Ru": "1925",
+      "Es": "1926",
+      "Fr": "1927",
+      "De": "1928"
+    },
+    {
+      "id": "motorPower",
+      "Tr": "Motor Gücü",
+      "En": "Motor Power",
+      "Ru": "1934",
+      "Es": "1935",
+      "Fr": "1936",
+      "De": "1937"
+    },
+    {
+      "id": "output",
+      "Tr": "Verim",
+      "En": "Output",
+      "Ru": "1943",
+      "Es": "1944",
+      "Fr": "1945",
+      "De": "1946"
+    },
+    {
+      "id": "pressureSensor",
+      "Tr": "Opsiyonel Basınç Sensörü",
+      "En": "Optional Pressure Sensor",
+      "Ru": "1952",
+      "Es": "1953",
+      "Fr": "1954",
+      "De": "1955"
+    },
+    {
+      "id": "crossSectionSolid",
+      "Tr": "Çalışma Aralığı Solid (mm²)",
+      "En": "Production Range Solid (mm²)",
+      "Ru": "1961",
+      "Es": "1962",
+      "Fr": "1963",
+      "De": "1964"
+    },
+    {
+      "id": "crossSectionFlex",
+      "Tr": "Çalışma Aralığı Flex (mm²)",
+      "En": "Production Range Flexiable (mm²)",
+      "Ru": "1970",
+      "Es": "1971",
+      "Fr": "1972",
+      "De": "1973"
+    },
+    {
+      "id": "insulationThickness",
+      "Tr": "İzolasyon Et Kalınlığı (mm)",
+      "En": "Insulation Thickness (mm)",
+      "Ru": "1979",
+      "Es": "1980",
+      "Fr": "1981",
+      "De": "1982"
+    },
+    {
+      "id": "conductorType",
+      "Tr": "İletken",
+      "En": "Conductor Type",
+      "Ru": "1988",
+      "Es": "1989",
+      "Fr": "1990",
+      "De": "1991"
+    },
+    {
+      "id": "maxCableDia",
+      "Tr": "Maksimum Kablo Çapı (mm)",
+      "En": "max. Cable Diameter (mm)",
+      "Ru": "2006",
+      "Es": "2007",
+      "Fr": "2008",
+      "De": "2009"
+    },
+    {
+      "id": "minCableDia",
+      "Tr": "Minimum Kablo Çapı",
+      "En": "min. Cable Diameter",
+      "Ru": "2015",
+      "Es": "2016",
+      "Fr": "2017",
+      "De": "2018"
+    },
+    {
+      "id": "roundSolidStrandedBunched",
+      "Tr": "Mono yada Flexible bakır iletkenler",
+      "En": "Round, solid, stranded or bunched",
+      "Ru": "2033",
+      "Es": "2034",
+      "Fr": "2035",
+      "De": "2036"
+    },
+    {
+      "id": "tmCertificate",
+      "Tr": "Marka Tescil Belgesi",
+      "En": "TradeMark Registration",
+      "Ru": "TradeMark",
+      "Es": "TradeMark",
+      "Fr": "TradeMark",
+      "De": "TradeMark"
+    },
+    {
+      "id": "isoCertificate",
+      "Tr": "ISO 9001:2015",
+      "En": "ISO 9001:2015",
+      "Ru": "ISO 9001:2015",
+      "Es": "ISO 9001:2015",
+      "Fr": "ISO 9001:2015",
+      "De": "ISO 9001:2015"
+    },
+    {
+      "id": "ceCertificate",
+      "Tr": "Örnek CE Sertifikası",
+      "En": "CE Certificate Sample",
+      "Ru": "CE Certificate",
+      "Es": "CE Certificate",
+      "Fr": "CE Certificate",
+      "De": "CE Certificate"
+    },
+    {
+      "id": "eacCertificate",
+      "Tr": "EAC 004 / 0020",
+      "En": "EAC 004 / 0020",
+      "Ru": "EAC 004 / 0020",
+      "Es": "EAC 004 / 0020",
+      "Fr": "EAC 004 / 0020",
+      "De": "EAC 004 / 0020"
+    },
+    {
+      "id": "eacCertificate2",
+      "Tr": "EAC 0010",
+      "En": "EAC 0010",
+      "Ru": "EAC 0010",
+      "Es": "EAC 0010",
+      "Fr": "EAC 0010",
+      "De": "EAC 0010"
+    },
+    {
+      "id": "crossHeadToExtruder",
+      "Tr": "Ekstuderlere Göre Çapraz Kafa Uyumluluk Tablosu",
+      "En": "CrossHead to Extruder Compatibility Chart",
+      "Ru": "2087",
+      "Es": "2088",
+      "Fr": "2089",
+      "De": "2090"
+    },
+    {
+      "id": "pg-lines",
+      "Tr": "Örnek Hatlar",
+      "En": "Line Examples",
+      "Ru": "2096",
+      "Es": "2098",
+      "Fr": "2099",
+      "De": "2100"
+    },
+    {
+      "id": "lines-main",
+      "Tr": "Üretim Hatları",
+      "En": "Production Lines",
+      "Ru": "2105",
+      "Es": "2106",
+      "Fr": "2107",
+      "De": "2108"
+    },
+    {
+      "id": "lineComposition",
+      "Tr": "Hat İçeriği",
+      "En": "Line Composition",
+      "Ru": "2114",
+      "Es": "2115",
+      "Fr": "2116",
+      "De": "2117"
+    },
+    {
+      "id": "stdEqp",
+      "Tr": "Standart Ekipmanlar",
+      "En": "Standard Equipments",
+      "Ru": "2123",
+      "Es": "2124",
+      "Fr": "2125",
+      "De": "2126"
+    },
+    {
+      "id": "optEqp",
+      "Tr": "Opsiyonel Ekipmanlar",
+      "En": "Optional Equipments",
+      "Ru": "2132",
+      "Es": "2133",
+      "Fr": "2134",
+      "De": "2135"
+    },
+    {
+      "id": "wireInsulation-Tab",
+      "Tr": "Damar İzolasyon Hattı",
+      "En": "Wire Insulation Lines",
+      "Ru": "2141",
+      "Es": "2142",
+      "Fr": "2143",
+      "De": "2144"
+    },
+
+    {
+      "id": "lineCode",
+      "Tr": "Ürün Kodu",
+      "En": "Product Code",
+      "Ru": "2159",
+      "Es": "2160",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "lineLength",
+      "Tr": "Yaklaşık Hat Uzunluğu (mt)",
+      "En": "Apprx. Line Length (m)",
+      "Ru": "2159",
+      "Es": "2160",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "yes",
+      "Tr": "Evet",
+      "En": "Yes",
+      "Ru": "2159",
+      "Es": "2160",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "no",
+      "Tr": "Hayır",
+      "En": "No",
+      "Ru": "2159",
+      "Es": "2160",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "glance",
+      "Tr": "Bir Bakışta",
+      "En": "At A Glance",
+      "Ru": "2159",
+      "Es": "2160",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "compoundsPvc",
+      "Tr": "İşlenebilecek Hammaddeler",
+      "En": "Compound Ability",
+      "Ru": "2159",
+      "Es": "2160",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "630doubleFlyerPo",
+      "Tr": "Ø630 İkili Flyer Boşaltıcı",
+      "En": "Ø630 Double Flyer Pay Off",
+      "Ru": "2159",
+      "Es": "2160",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "brakeUnit",
+      "Tr": "Frenleme Ünitesi",
+      "En": "Wire Brake Unit",
+      "Ru": "2159",
+      "Es": "2160",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "ext60",
+      "Tr": "AEXT60 Ekstruder ve PVC Vidası",
+      "En": "AEXT60 Extruder with PVC Screw",
+      "Ru": "2159",
+      "Es": "2160",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "ext35",
+      "Tr": "AEXT35 Ekstruder ve PVC Vidası",
+      "En": "AEXT35 Extruder with PVC Screw",
+      "Ru": "2159",
+      "Es": "2135",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "doubleDiscCasptan",
+      "Tr": "İkili Kasnaklı Çekici",
+      "En": "Double Disc Capstan",
+      "Ru": "2159",
+      "Es": "2135",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "accumulator",
+      "Tr": "Akümülatör",
+      "En": "Accumulator",
+      "Ru": "2159",
+      "Es": "2135",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "doubleSpooler",
+      "Tr": "Otomatik İkili Sarıcı",
+      "En": "Automatic Double Spooler",
+      "Ru": "2159",
+      "Es": "2135",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "screwChange",
+      "Tr": "Opsiyonel Vida İle",
+      "En": "With Optional Screw",
+      "Ru": "2159",
+      "Es": "2135",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "compoundsHFFR",
+      "Tr": "HFFR için Vida",
+      "En": "Screw for HFFR",
+      "Ru": "2159",
+      "Es": "2135",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "hotDiaControl",
+      "Tr": "Sıcak Çap Ölçme Cihazı",
+      "En": "Diameter Control For Hot Isolation",
+      "Ru": "2159",
+      "Es": "2135",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "coldDiaControl",
+      "Tr": "Soğuk Çap Ölçme Cihazı",
+      "En": "Diameter Control For Cold Isolation",
+      "Ru": "2159",
+      "Es": "2135",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "lump",
+      "Tr": "Yumru Tespit Cİhazı",
+      "En": "Lump Detector",
+      "Ru": "2159",
+      "Es": "2135",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "eccentricity",
+      "Tr": "Merkez Kaçıklığı Ölçüm Cihazı",
+      "En": "Eccentricity Measuring Device",
+      "Ru": "2159",
+      "Es": "2135",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "spark",
+      "Tr": "Spark Testi Cihazı",
+      "En": "Spark Tester",
+      "Ru": "2159",
+      "Es": "2135",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "rfq",
+      "Tr": "Teklif İsteyin",
+      "En": "Request for Quotation",
+      "Ru": "2159",
+      "Es": "2135",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "recommended",
+      "Tr": "Seçili ekipmanlar gereklidir",
+      "En": "Selected Equipments are recommended",
+      "Ru": "2159",
+      "Es": "2135",
+      "Fr": "2161",
+      "De": "2162"
+    },
+    {
+      "id": "mainSlide4h2",
+      "Tr": "Aymak Makine",
+      "En": "Aymak Makine",
+      "Ru": "Aymak Makine",
+      "Es": "Aymak Makine",
+      "Fr": "Aymak Makine",
+      "De": "Aymak Makine"
+    },
+    {
+      "id": "mainSlideSubTitle4",
+      "Tr": "Hoşgeldiniz",
+      "En": "Welcome",
+      "Ru": "желанный",
+      "Es": "Bienvenidos",
+      "Fr": "Bienvenue",
+      "De": "Willkommen"
+    },
+    {
+      "id": "mainSlide5h2",
+      "Tr": "Aymak Makine",
+      "En": "Aymak Makine",
+      "Ru": "Aymak Makine",
+      "Es": "Aymak Makine",
+      "Fr": "Aymak Makine",
+      "De": "Aymak Makine"
+    },
+    {
+      "id": "mainSlideSubTitle5",
+      "Tr": "Hoşgeldiniz",
+      "En": "Welcome",
+      "Ru": "желанный",
+      "Es": "Bienvenidos",
+      "Fr": "Bienvenue",
+      "De": "Willkommen"
+    },
+    {
+      "id": "mainSlide6h2",
+      "Tr": "Aymak Makine",
+      "En": "Aymak Makine",
+      "Ru": "Aymak Makine",
+      "Es": "Aymak Makine",
+      "Fr": "Aymak Makine",
+      "De": "Aymak Makine"
+    },
+    {
+      "id": "mainSlideSubTitle6",
+      "Tr": "Hoşgeldiniz",
+      "En": "Welcome",
+      "Ru": "желанный",
+      "Es": "Bienvenidos",
+      "Fr": "Bienvenue",
+      "De": "Willkommen"
+    },
+    {
+      "id": "sheetingLine-Tab",
+      "Tr": "Kılıf Hatları",
+      "En": "Sheeting Line",
+      "Ru": "2141",
+      "Es": "2142",
+      "Fr": "2143",
+      "De": "2144"
+    },
+    {
+      "id": "appType",
+      "Tr": "Uygulama Alanı",
+      "En": "Application",
+      "Ru": "2141",
+      "Es": "2142",
+      "Fr": "2143",
+      "De": "2144"
+    },
+    {
+      "id": "audioVideo",
+      "Tr": "VideoSes",
+      "En": "VideoAudio",
+      "Ru": "2141",
+      "Es": "2142",
+      "Fr": "2143",
+      "De": "2144"
+    },
+    {
+      "id": "flat",
+      "Tr": "Yassı",
+      "En": "Flat",
+      "Ru": "2141",
+      "Es": "2142",
+      "Fr": "2143",
+      "De": "2144"
+    },
+    {
+      "id": "battery",
+      "Tr": "AküTakviye",
+      "En": "Battery",
+      "Ru": "2141",
+      "Es": "2142",
+      "Fr": "2143",
+      "De": "2144"
+    },
+    {
+      "id": "harness",
+      "Tr": "OtomotivTesisat",
+      "En": "AutomotiveHarness",
+      "Ru": "2141",
+      "Es": "2142",
+      "Fr": "2143",
+      "De": "2144"
+    },
+    {
+      "id": "coax",
+      "Tr": "Coaxial",
+      "En": "Coaxial",
+      "Ru": "2141",
+      "Es": "2142",
+      "Fr": "2143",
+      "De": "2144"
+    },
+    {
+      "id": "highTemp",
+      "Tr": "YüksekIsı",
+      "En": "HighTemperature",
+      "Ru": "2141",
+      "Es": "2142",
+      "Fr": "2143",
+      "De": "2144"
+    },
+    {
+      "id": "elevator",
+      "Tr": "Asansör",
+      "En": "Elevator",
+      "Ru": "2141",
+      "Es": "2142",
+      "Fr": "2143",
+      "De": "2144"
+    },
+    {
+      "id": "homeAppliance",
+      "Tr": "BinaUygulama",
+      "En": "HomeAppliance",
+      "Ru": "2141",
+      "Es": "2142",
+      "Fr": "2143",
+      "De": "2144"
+    },
+    {
+      "id": "ethernet",
+      "Tr": "Ethernet",
+      "En": "Ethernet",
+      "Ru": "2141",
+      "Es": "2142",
+      "Fr": "2143",
+      "De": "2144"
+    },
+    {
+      "id": "lowVoltage",
+      "Tr": "AlçakGerilim",
+      "En": "LowVoltage",
+      "Ru": "2141",
+      "Es": "2142",
+      "Fr": "2143",
+      "De": "2144"
+    },
+    {
+      "id": "detail",
+      "Tr": ">Detay",
+      "En": ">Details",
+      "Ru": "2141",
+      "Es": "2142",
+      "Fr": "2143",
+      "De": "2144"
+    }
+
+
+  ]
+}

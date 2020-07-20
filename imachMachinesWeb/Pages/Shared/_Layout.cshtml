@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Top Quality Cable Machinery</title>
+
+    <link href="~/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="~/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="~/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa  fa-angle-double-up"></i></button>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark ">
+            <div class="container">
+                <div>
+                    <a class="navbar-brand" style="color:white !important">IMACH Machines</a>
+                </div>
+                <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item d-inline-block">
+                            <a id="btnGoHome" class="nav-link mr-2 fa fa-home" style="font-size:30px" href="/"></a>
+                        </li>
+
+                        <li class="nav-item mt-2 d-inline-block">
+                            <select>
+                                <option value="En">English </option>
+                                <option value="Tr">Türkçe</option>
+                                <option value="Ru">Pусский</option>
+                                <option value="Es">Español</option>
+                                <option value="Fr">Français</option>
+                                <option value="De">Deutsche</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <div>
+
+
+
+        @RenderBody()
+
+    </div>
+
+    <footer class="footer text-center bg-dark mt-5">
+
+        <div>
+            <a asp-area="" asp-page="/Privacy">Privacy | </a>  &copy; 2020 Aymak Makine Ltd. <br /> marked up  &#64;<a href="http:\\www.astroid.com.tr" target="_blank">Astroid</a>
+        </div>
+
+    </footer>
+    <script src="~/js/jquery-slim.min.js"></script>
+    <script src="~/js/bootstrap.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/anchor.min.js"></script>
+    <script src="~/js/clipboard.min.js"></script>
+    <script src="~/js/holder.min.js"></script>
+    <script src="~/js/site.js"></script>
+    <script src="~/js/embed.js"></script>
+
+    @*Written By Y.G.*@
+    <script>
+        function setCookie(cname, cvalue/*, exdays*/) {
+            //var d = new Date();
+            //d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            //var expires = "expires=" + d.toUTCString();
+            console.log("settingCookie => " + cname + " = " + cvalue);
+            document.cookie = cname + "=" + cvalue + ";" + /*expires +*/ ";path=/";
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        function checkCookie(cname) {
+            var cookie = getCookie(cname);
+            console.log("cookieCheck => " + cname)
+            console.log(cookie);
+            if (cookie != "") {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        document.getElementById("btnGoHome").addEventListener("click", function (event) {
+            event.preventDefault()
+            goHome();
+        });
+
+        function goHome() {
+            var referrer = document.referrer;
+            var cookie = getCookie("href");
+            var pageURL = document.location.href;
+
+            console.log("referrer => " + referrer);
+            console.log("cookie => " + cookie);
+            console.log("pageURL => " + pageURL);
+
+
+            if (cookie != "" && referrer.includes(cookie) && !pageURL.includes(cookie)) {
+                console.log("back");
+                window.history.back();
+            } else {
+                console.log("navigate");
+                window.location.href =/* window.location.hostname + */"/index/#page";
+            }
+        }
+    </script>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

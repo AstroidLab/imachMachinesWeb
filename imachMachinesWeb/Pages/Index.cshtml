@@ -1,0 +1,375 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Aymak Makine Ltd.";
+
+}
+
+<video autoplay playsinline muted loop id="myVideo" >
+    <source src="~/video/720.mp4" type="video/mp4" />
+</video>
+
+<script>
+    document.getElementById('myVideo').play();
+</script>
+
+<div class="container justify-content-center " >
+    <!-- Cards-->
+    <div class="row mt-2 justify-content-center">
+        <div class="col-lg-4 mb-4">
+            <div class="card cardx h-100">
+                <h4 class="card-header cardx-header">Who We Are?</h4>
+                <div class="card-body">
+                    <p class="card-text">Aymak Makine Ltd. operates in the sector of machinery production for cable industry...<br />  <a href="" data-toggle="modal" data-target="#historyModal">Read More</a> </p>
+                    <p class="card-text">Aymak Makine Ltd. which has identified its quality with the principle of customer satisfaction...<br />  <a href="" data-toggle="modal" data-target="#qualityPolicyModal">Read More</a> </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card cardx h-100">
+                <h4 class="card-header cardx-header">Contact</h4>
+                <div class="card-body">
+                    <p class="card-text">
+                        <a href="tel:+902166223281"><i class="fa fa-phone"></i>  : +90 216 622 3281  </a><br />
+                        <i><i class="fa fa-fax "></i>  : +90 216 620 9786 </i><br /><br />
+                        <a href="mailto:info@aymakmakine.com?subject=WebSite/">
+                            <strong>
+                                <i class="fa fa-envelope-o ">
+                                </i> : info@aymakmakine.com
+                            </strong>
+                        </a><br /><br />
+                    </p>
+                    <div class="justify-content-between" style="font-size:28px">
+                        <a href="#" class="fa fa-linkedin ml-2" title="LinkedIn"></a>
+                        <a href="https://www.facebook.com/AymakMakine1" target="_blank" class="fa fa-facebook ml-2" title="Facebook"></a>
+                        <a href="https://twitter.com/AymakMakine" target="_blank" class="fa fa-twitter ml-2" title="Twitter"></a>
+                        <a href="https://www.instagram.com/AymakMakine/" target="_blank" class="fa fa-instagram  ml-2" title="Instagram"></a>
+                        <a href="https://wa.me/905442065383?text=connectedViaWebSite" target="_blank" class="fa fa-whatsapp ml-2" title="Whatsapp "></a>
+                        <a href="https://telegram.me/KadirAKYIL" target="_blank" class="fa fa-telegram ml-2" title="Telegram "></a>
+                        <a href="https://www.youtube.com/playlist?list=PLWunJE-SOEq4E0JBJsVyfUVF5HfAt1Nb0" target="_blank" class="fa fa-youtube ml-2" title="YouTube "></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Where Are We?</h4>
+                <div class="card-body">
+                    <p><strong>Aymak Makine </strong><br />Müh. Hiz. San. ve Tic . Ltd. Şti</p>
+
+                    <i>Aydınlı Mah. Birlik OSB.</i><br />
+                    <i>Batı Cad. No:12 Tuzla</i><br />
+                    <i>34953, <strong>İstanbul / TÜRKİYE</strong></i><br />
+
+                    <a href="#map" class="btn btn-info mt-2" id="page">View on Map</a>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4" id="page">
+
+            <div class="card h-100">
+                <h4 class="card-header">Production Lines</h4>
+                <div class="card-body ">
+                    <div>
+                        <img class="img-fluid" src="~/images/productGroup/1.png" />
+                    </div>                 
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/CreatedByCustomers/Index" id="coilingLine">CreatedByCustomers</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/WireInsulationLines/Index" id="wireInsulationLine">Wire Insulation</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/SheetingLines/Index" id="sheetingLine">Sheeting</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/BunchingLines/Index" id="bunchingLine">Bunching</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/StrandingLines/Index" id="strandingLine">Stranding</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/ScreeningLines/Index" id="screeningLine">Screening</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/TapingLines/Index" id="tapingLine">Taping</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/RewindingLines/Index" id="rewindingLine">Rewinding</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/ArmoringLines/Index" id="armoringLine">Armoring</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/CoilingLines/Index" id="coilingLine">Coiling</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Stranding Machines</h4>
+                <div class="card-body"> 
+                    <div>
+                        <img class=" img-fluid" src="~/images/productGroup/4.png" />
+                    </div>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/PlanetaryStranders/Index" id="planetaryStrander">Planetary Strander</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/RotatingPos/Index" id="rotatingPo">Rotating Pay Off</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/RotatingTus/Index" id="rotatingTu">Rotating Take Up</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/RigidStranders/Index" id="rigidStrander">Rigid Strander</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/SkipStranders/Index" id="skipStrander">Skip Bow Strander</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Bunching Machines</h4>
+                <div class="card-body">
+                    <div>
+                        <img class=" img-fluid" src="~/images/productGroup/3.png" />
+                    </div>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/SingleTwistBunchers/Index" id="singleTwistBuncher">Single Twist</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/DoubleTwistBunchers/Index" id="doubleTwistBuncher">Double Twist</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Insulation Machines</h4>
+                <div class="card-body">
+                    <div>
+                        <img class=" img-fluid" src="~/images/productGroup/2.png" />
+                    </div>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/Extruders/Index" id="extruder">Extruder</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/Crossheads/Index" id="crosshead">Crosshead</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/CoolingThroughs/Index" id="coolingThrough">Cooling Through</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/GranuleMachines/Index" id="granuleMachine">Granule Production</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/PowderingDevices/Index" id="powderingDevice">Powdering</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Take Up Machines</h4>
+                <div class="card-body">
+                    <div>
+                        <img class=" img-fluid" src="~/images/productGroup/8.png" />
+                    </div>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/ForkTypeTus/Index" id="forkTypeTu">Fork Type Take Up</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/SpoolerTus/Index" id="spoolerTu">High Speed Take Up</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/DoubleSpoolerTus/Index" id="doubleSpoolerTu">Double Spooler Take Up</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/PortalTypeTus/Index" id="portalTypeTu">Portal Take Up</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Pay Off Machines</h4>
+                <div class="card-body">
+                    <div>
+                        <img class=" img-fluid" src="~/images/productGroup/10.png" />
+                    </div>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/FlyerPos/Index" id="flyerPo">Flyer Cone Pay Off</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/SpoolerPos/Index" id="spoolerPo">High Speed PayOff</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/ForkTypePos/Index" id="forkTypePo">Fork Type Pay Off</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/PortalTypePos/Index" id="portalTypePo">Portal Pay Off</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/MultiWirePos/Index" id="multiWirePo">Multi Wire Pay Off</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/PairingPos/Index" id="pairingPo">Pairing Pay Off</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Armoring Machines</h4>
+                <div class="card-body">
+                    <div>
+                        <img class=" img-fluid" src="~/images/productGroup/5.png" />
+                    </div>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/RigidArmorings/Index" id="rigidArmoring">Rigid Armoring</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/TapingHeads/Index" id="tapingHead">Taping Head</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Haul Off Machines</h4>
+                <div class="card-body">
+                    <div>
+                        <img class=" img-fluid" src="~/images/productGroup/6.png" />
+                    </div>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/DoubleDiscCapstans/Index" id="doubleDiscCapstan">Disc Capstan</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/CaterpillarCapstans/Index" id="caterpillarCapstan">Caterpillar</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/RotatingCaterpillarCapstans/Index" id="rotatingCaterpillarCapstan">Rotating Caterpillar</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Coiling Machines</h4>
+                <div class="card-body">
+                    <div>
+                        <img class=" img-fluid" src="~/images/productGroup/9.png" />
+                    </div>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/WoodenReelCoilers/Index" id="woodenReelCoiler">Wooden Reel Coiler</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/AutomaticCoilers/Index" id="automaticCoiler">Full Automatic Coiler</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/SemiAutomaticCoilers/Index" id="semiAutomaticCoiler">Semi Automatic Coiler</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Auxilary Equipments</h4>
+                <div class="card-body">
+                    <div>
+                        <img class=" img-fluid" src="~/images/productGroup/0.png" />
+                    </div>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/Dancers/Index" id="dancer">Dancer</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/RotatingDancers/Index" id="RotatingDancer">Rotating Dancer</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/Accumulators/Index" id="accumulator">Accumulator</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/CompactingHeads/Index" id="compactingHead">Compacting</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/LengthMeasures/Index" id="lengthMeasuring">Length Measuring</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/TapePos/Index" id="tapePo">Tape Pay Off</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/Rollers/Index" id="roller">Roller Group</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Consumable Items</h4>
+                <div class="card-body">
+                    <div>
+                        <img class=" img-fluid" src="~/images/productGroup/11.png" />
+                    </div>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/Reels/Index" id="reel">Reels</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/Bows/Index" id="bow">Bows</a>
+                    <a class="btn btn-outline-dark" asp-area="" asp-page="/Ceramics/Index" id="ceramic">Ceramics</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+
+</div>
+<div id="mainCr" class="carousel slide mw-100" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+        <li data-target="#mainCr" data-slide-to="0" class="active"></li>
+        <li data-target="#mainCr" data-slide-to="1"></li>
+        <li data-target="#mainCr" data-slide-to="2"></li>
+        <li data-target="#mainCr" data-slide-to="3"></li>
+        <li data-target="#mainCr" data-slide-to="4"></li>
+        <li data-target="#mainCr" data-slide-to="5"></li>
+
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="img-fluid" src="~/images/mainPage/slide-1.jpg" />
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid" src="~/images/mainPage/slide-2.jpg" />
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid" src="~/images/mainPage/slide-3.jpg" />
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid" src="~/images/mainPage/slide-4.jpg" />
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid" src="~/images/mainPage/slide-5.jpg" />
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid" src="~/images/mainPage/slide-6.jpg" />
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#mainCr" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#mainCr" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>
+
+<div>
+    <iframe id="map" class="w-100 mt-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d978.0252772400318!2d29.39374500059412!3d40.87972398756361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6649ac75029ace8!2sAymak%20Makina%20Fabr.!5e0!3m2!1str!2str!4v1594991074053!5m2!1str!2str" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+</div>
+
+<!-- history modal -->
+<div class="modal  fade mt-5 fullscreen" id="historyModal" style="background-color:rgba(0, 0, 0, 0.95)">
+    <div class="modal-dialog justify-content-center ">
+
+        <div class="modal-content  bg-imachTop mt-5">
+            <img class="img-fluid"
+                 src="~/images/mainPage/historyModal.png" />
+            <div class="container col-11">
+                <p class="storyText" style="text-justify:inter-word">
+                    <br /><br />Aymak Makine Ltd. operates in the sector of machinery production for cable industry. We are one  of the biggest cable machinery producer in TURKEY. Our extensive knowledge gained in the sector over 30 years, the company improves it further by current technology and expert staff every day. Basing on an understanding of Total Quality and Customer Satisfaction, our company is certificated by the certificate of quality to the standard ISO EN 9001:2008.<br /><br />
+
+                    With strict control over all machines and lines it has produced from the very establishment of the company throughout all phases from design to operation, our company constantly enhance and improve customer satisfaction with respect to timely delivery and service, making the trademark  <span style="font-family:Aero">IMACH</span>® a shining star.<br /><br />
+
+                    Managing and producing completely in its own body from offer to delivery, our company aims at meeting expectations of its customers, employees, shareholders and society, safeguarding the environment in which it operates, ensuring use of the natural resources efficiently, keeping it as its principle to improve constantly, enhancing total quality level through training with consistent quality targets, following up all technological developments to increase its competitive power under the hanging market condition be become a preferred company in the sector.<br /><br />
+
+                    We are committed to make you satisfied. <br /><br />
+
+                    <div class=" text-right">
+                        <a data-dismiss="modal">
+                            <span class="mr-5 ml-3 mb-3 mt-3 btn btn-danger">X</span>
+                        </a>
+                    </div>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- quality policy modal -->
+<div class="modal  fade mt-5 fullscreen" id="qualityPolicyModal" style="background-color:rgba(0, 0, 0, 0.95)">
+    <div class="modal-dialog justify-content-center ">
+
+        <div class="modal-content  bg-imachTop mt-5">
+            <img class="img-fluid"
+                 src="~/images/mainPage/qualityPolicyModal.png" />
+            <div class="container col-11">
+                <p class="storyText" style="text-justify:inter-word">
+                    <br /><br />Aymak Makine Ltd. which has identified its quality with the principle of customer satisfaction with its experiences since its establishment, will continue to progress confidently towards becoming a wanted brand by following the technological developments closely and expanding its domestic and foreign trade capacity.
+                    <br /><br />
+
+                    We are committed to continuous improvement by recognizing that the main factor is the appropriate human investment with the value we give to our personnel, ensuring the participation and satisfaction of all employees with continuous training and complying with the requirements of the ISO 9001: 2015 Quality Management System in line with ISO 9001 Quality Management System.<br /><br />
+
+                    With production of our top quality machines, we will never leave the line of being an exemplary organization that always prioritizes the customer's appreciation above all without compromising its quality.<br /><br />
+
+                    <div class="text-right">
+                        <a data-dismiss="modal">
+                            <span class="mr-5 ml-3 mb-3 mt-3 btn btn-danger">X</span>
+                        </a>
+                    </div>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+
+<script>
+    //if (checkCookie("href") == false) {
+        //var href = window.location.hostname + "/index";
+    var port = window.location.port;
+    if (port != "") {
+        port = ":" + port; 
+    }
+    var href = window.location.protocol + "//"+ window.location.hostname + port + window.location.pathname;
+        console.log(href)
+        setCookie("href", href);
+    //}
+</script>
+
+}
+
+
+
+
